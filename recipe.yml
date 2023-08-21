@@ -63,9 +63,8 @@ rpm:
     - libadwaita
     - neovim
     - lua
-    - fzf
     - make
-    - gcc
+    - gcc-c++
     - skanlite
     - zsh
     - openrgb
