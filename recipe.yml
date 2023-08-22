@@ -49,6 +49,7 @@ rpm:
     # Example (which also demonstrates version number expansion):
     # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%FEDORA_VERSION%/atim-starship-fedora-%FEDORA_VERSION%.repo
     - https://download.opensuse.org/repositories/utilities/openSUSE_Factory/utilities.repo
+    - https://copr.fedorainfracloud.org/coprs/dawid/gocryptfs/repo/fedora-%FEDORA_VERSION%/dawid-gocryptfs-fedora-%FEDORA_VERSION%.repo
 
   # These RPMs will be installed from your enabled repositories (Fedora's own
   # repos, extra "repos" you've added, etc). The installation is automatically
@@ -70,6 +71,7 @@ rpm:
     - python3-jinja2-cli
     - syncthing
     - syncthing-tools
+    - gocryptfs
 
     # These RPMs will be removed from the system image. This step happens during
     # image build, BEFORE installing custom RPMs (from the "rpm.install" category).
